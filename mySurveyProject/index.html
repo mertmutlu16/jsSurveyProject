@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>myTestProject</title>
+    <link rel="stylesheet" href="./css/myTestProjectsCss.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div id="title">
+            <h1>Evden Çalışma Anketi</h1>
+        </div>
+        
+        <div id="gosterim" class="d-none">
+            <p > 
+                <span class="scoreYaz display-5 " style="color:red">100%</span>
+                ofise dönmek istiyorsun
+            </p>
+        </div>
+        <!---    style="display:none;"
+        <p><span class="text-danger display-4 p-3">0%</span> ofise dönmek istiyorsun</p>
+        --->
+ 
+
+        <div class="bg-secondary py-3" >
+            <div class="container">
+                <form class="questions text-white">
+                    <div class="question1 my-4">
+                        <p>1.Ofiste daha verimli çalışıyorum</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" value="E" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Evet
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" value="H" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Hayır
+                            </label>
+                          </div>
+                    </div>
+
+                    <div class="question2 my-4">
+                        <p>2.Ofise tam zamanlı dönmek istiyorum</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" value="E" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Evet
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" value="H" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Hayır
+                            </label>
+                          </div>
+                    </div>
+
+                    <div class="question3 my-4">
+                        <p>3.Evdeyken teknik sorunlar daha zor çözülüyor</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" value="E" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Evet
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" value="H" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Hayır
+                            </label>
+                          </div>
+                    </div>
+                    
+                    <div class="question4 my-4">
+                        <p>4.Evdeyken haftalık taslakları yetiştirmekte zorlanıyorum </p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" value="E" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Evet
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" value="H" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Hayır
+                            </label>
+                          </div>
+                    </div>
+
+                    <div style="text-align: center;"  >
+                        <input style=" border:transparent; padding: 8px;" class="rounded" type="submit" value="Gönder">
+                   </div>
+                   
+
+                </form>
+
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+
+
+    <script src="./js/myTestProjectsJs.js"></script>
+</body>
+</html>
